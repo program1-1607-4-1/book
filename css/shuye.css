@@ -56,3 +56,40 @@ img {
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
 /*图片居中：@include img-center*/
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.head {
+  height: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #29a6dc;
+}
+
+.head .head_Left {
+  width: .44rem;
+  height: .44rem;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #096dbe;
+  margin-left: .24rem;
+  overflow: hidden;
+}
+
+.head .head_Left span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/shuye/shuye_01_49.png") no-repeat;
+  background-size: cover;
+}
