@@ -1,0 +1,711 @@
+       h1,h2,h3{
+       	    margin:0;
+       	    padding: 0;
+       }
+       /*第九个*/
+		#box{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   #box .box{
+	   	    width: 316px;
+		    height: 216px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;
+            
+	   }
+		.img1{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:8px;
+			top:8px;
+			z-index: 3;
+
+		}    
+       .img1:hover img{ 
+			transform-origin: center bottom;
+			transform: rotateX(180deg);
+		}
+		img{
+			width: 300px;
+			height: 200px;
+		}
+		.bj1{
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			left:8px;
+			top:8px;
+			background: #000;
+			z-index: 1;
+		}
+		.bj1 h3{
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size:17px;
+		    padding: 10px;
+		    background: #000;
+		    margin: 60px 0 0 0;
+		    transition: all 0.35s 0.1s ease-in-out;
+		}
+		.bj1 p{
+			font-style: italic;
+		    font-size: 12px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s 0.15s linear;
+		}
+		/*第三个*/
+		.bbox3{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox3 .box3{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+		    overflow: hidden;  
+	   }
+	   .next{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:0 auto;
+		    position: absolute;
+			transition:all 1s linear;
+	   }
+	   .next:hover{
+	   	   transform-origin: center bottom;
+			transform:translateY(-70px);
+	   }
+		.img3{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:8px;
+			/*top:8px;*/
+			z-index: 3;
+			
+		}	
+		.bj3{
+			width: 300px;
+			height: 78px;
+			color: #FFF;
+			position: absolute;
+			left:8px;
+			bottom:-75px;
+			background: #000;
+			z-index:-1px;
+		}
+		.bj3 h3{
+		    text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size: 17px;
+		    padding: 10px 10px 0 4px;
+		    margin: 4px 0 0 0;
+		}
+		.bj3 p{
+			font-style: italic;
+			font-size: 12px;
+			position: relative;
+			color: #bbb;
+			padding: 5px;
+			text-align: center;
+		}
+		/*第10个*/
+		.bbox10{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox10 .box10{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+		    overflow: hidden;  
+	   }
+	   .next10{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:0 auto;
+		    position: absolute;
+			transition:all 1s linear;
+			perspective: 2000px;
+	   }
+	   .next10:hover{
+	   	   transform-origin: center bottom;
+			transform:translateY(-200px);
+	   }
+		.img10{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:8px;
+			/*top:8px;*/
+			z-index: 3;
+			
+		}	
+		.bj10{
+			width: 300px;
+			height: 200px;
+			color: #FFF;
+			position: absolute;
+			left:8px;
+			bottom:-200px;
+			background: #000;
+			z-index:-1px;
+		}
+		.bj10 h3{
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size:17px;
+		    padding: 10px;
+		    background: #000;
+		    margin: 60px 0 0 0;
+		    transition: all 0.35s 0.1s ease-in-out;
+		}
+		.bj10 p{
+			font-style: italic;
+		    font-size: 12px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s 0.15s linear;
+		}
+       		/*第11个*/
+		.bbox11{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox11 .box11{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+	   }
+	   .next11{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:0 auto;
+		    position: absolute;
+		    overflow: hidden;
+		}	
+	   .next11:hover .img11{
+	   	   transform: scale(0.5);
+	   }
+	   .next11:hover .bj11{
+	   	   transform:translateX(300px);
+	   }
+		.img11{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:0px;
+			/*top:8px;*/
+			z-index: 3;
+			transition:all 1s linear;
+			transform-style: preserve-3d;
+			
+		}	
+		.bj11{
+			width: 300px;
+			height: 200px;
+			color: #FFF;
+			position: absolute;
+			left:-300px;
+			bottom:0;
+			background: #000;
+			transition:all 1s linear;
+			z-index: 5;
+		}
+         .bj11 h3{  
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size:17px;
+		    padding: 10px;
+		    background: #000;
+		    margin: 60px 0 0 0;
+		    transition: all 0.35s 0.1s ease-in-out;
+		}
+		.bj11 p{
+			font-style: italic;
+		    font-size: 12px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s 0.15s linear;
+		}
+		/*第12个*/
+		.bbox12{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox12 .box12{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+	   }
+	   .next12{
+	   	    width: 300px;
+		    height: 200px;
+		    margin:0 auto;
+		    position: absolute;
+		    overflow: hidden;
+		    transform-origin:left center;
+		}	
+	   .next12:hover .bj12{
+	   	  /* transform:translateX(-300px) rotate(180deg);*/
+	   }
+		.img12{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:0px;
+			/*top:8px;*/
+			z-index: 3;
+		}	
+			
+		.bj12 p{
+             background: rgba(0, 0, 0, 0.6);
+		    visibility: hidden;
+		    opacity: 0;
+		    -webkit-transition: all 0.35s ease-in;
+		    -moz-transition: all 0.35s ease-in;
+			z-index: 5;
+			    transform: translate(-460px, -100px) rotate(-180deg);
+		}
+		.bj12 h3{
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size: 17px;
+		    padding: 10px;
+		    background: #111111;
+		    margin: 30px 0 0 0;
+		    transition: all 0.35s ease-in;
+		}
+		.bj12 p{
+			font-style: italic;
+		    font-size: 12px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s ease-in;
+		}
+		/*第13个*/
+		.bbox13{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox13 .box13{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+	   }
+	   .next13{
+	   	    width: 300px;
+		    height: 200px;
+		    margin:0 auto;
+		    position: absolute;
+		    overflow: hidden;
+		    transform-origin:right center;
+		}	
+	   .next13:hover .bj13{
+	   	   transform:translateX(300px);
+	   }
+	   .next13:hover .img13{
+	   	   transform: scale(1.2);
+	   }
+		.img13{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:0px;
+			/*top:8px;*/
+			z-index: 3;
+			transition:all 1s linear;
+			
+		}	
+			
+		.bj13{
+			width: 300px;
+			height: 200px;
+			color: #FFF;
+			position: absolute;
+			left:-300px;
+			bottom:0;
+			background: rgba(0, 0, 0, 0.5);
+			transition:all 0.5s linear;
+			z-index: 5;
+		}
+		.bj13 h3{
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size:17px;
+		    padding: 10px;
+		    background: #000;
+		    margin: 60px 0 0 0;
+		    transition: all 0.35s 0.1s ease-in-out;
+		}
+		.bj13 p{
+			font-style: italic;
+		    font-size: 12px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s 0.15s linear;
+		}
+	    /*第14个*/
+		.bbox14{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox14 .box14{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+	   }
+	   .next14{
+	   	    width: 300px;
+		    height: 200px;
+		    margin:0 auto;
+		    left:5px;
+		    position: absolute;
+		    overflow: hidden;
+		    transform-origin:center center;
+		    transform-style: preserve-3d;
+		    perspective: 2000px;
+		}	
+	   .next14:hover .bj14{
+	   	   transform: scale(1);
+	   }
+	   .next14:hover .img14{
+	   	   
+	   	   transform:translateY(300px);
+	   }
+		.img14{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:5px;
+			/*top:8px;*/
+			z-index: 3;
+			transition:all 1s linear;
+			
+		}	
+			
+		.bj14{
+			width: 300px;
+			height: 200px;
+			color: #FFF;
+			position: absolute;
+			left:5px;
+			bottom:0;
+			background:#000;
+			transition:all 0.5s linear;
+			transform: scale(0);
+		}
+		.bj14 h3{
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size:17px;
+		    padding: 10px;
+		    background: #000;
+		    margin: 60px 0 0 0;
+		    transition: all 0.35s 0.1s ease-in-out;
+		}
+		.bj14 p{
+			font-style: italic;
+		    font-size: 12px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s 0.15s linear;
+		}
+	  /*第15个*/
+		.bbox15{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox15 .box15{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+	   }
+	   .next15{
+	   	    width: 300px;
+		    height: 200px;
+		    left:5px;
+		    margin:0 auto;
+		    position: absolute;
+		    overflow: hidden;
+		    transform-origin:right center;
+		}	
+	   .next15:hover .bj15{
+	   	   transform: rotateY(0deg);
+	   }
+	   .next15:hover .img15{
+	   	   
+	   	   transform: rotateY(90deg);
+	   }
+		.img15{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:5px;
+			/*top:8px;*/
+			z-index: 3;
+			transition:all 1s;
+			transform-origin:left center;
+			/*display: none;*/
+		}	
+			
+		.bj15{
+			width: 300px;
+			height: 200px;
+			color: #FFF;
+			position: absolute;
+			left:5px;
+			bottom:0;
+			background:#000;
+			transition-duration: 2s; 
+			transform-origin:right center;
+			transform: rotateY(-90deg);
+		}
+		.bj15 h3{
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size:17px;
+		    padding: 10px;
+		    background: #000;
+		    margin: 60px 0 0 0;
+		    transition: all 0.35s 0.1s ease-in-out;
+		}
+		.bj15 p{
+			font-style: italic;
+		    font-size: 12px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s 0.15s linear;
+		}
+		/*第8个*/
+		.bbox8{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bbox8 .box8{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+	   }
+	   .next8{
+	   	    width: 300px;
+		    height: 200px;
+		    left:5px;
+		    margin:0 auto;
+		    position: absolute;
+		    overflow: hidden;
+		    transform-origin:center center;
+		}	
+	   .next8:hover .bj8{
+           transform: scale(0.3333);
+            opacity: 1;
+	   }
+	   .next8:hover .img8{
+            transform: scale(0.3333); 
+	   }
+		.img8{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:0px;
+			/*top:8px;*/
+			z-index: 3;
+			transition:all 1s;
+			display: ;
+		}	
+			
+		.bj8{
+			width: 900px;
+			height: 600px;
+			color: #FFF;
+			position: absolute;
+			left:-300px;
+			top:-200px;
+			background:#000;
+			transition-duration: 2s; 
+			/*transition-delay:2s ;*/
+			z-index: 7;
+			opacity: 0;
+		}
+		.bj8 h3{
+			text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size:64px;
+		    padding: 10px;
+		    background: #000;
+		    margin: 60px 0 0 0;
+		    transition: all 0.35s 0.1s ease-in-out;
+		}
+		.bj8 p{
+			font-style: italic;
+		    font-size: 36px;
+		    position: relative;
+		    color: #bbb;
+		    padding: 20px 20px 20px;
+		    text-align: center;
+		    transition: all 0.35s 0.15s linear;
+		}
+		/*第1个*/
+		.bboxfirst{
+		    width: 400px;
+			height: 300px;
+			border:1px solid #000;
+			margin:50px auto;
+			float: left;
+			margin-left: 10px;
+		}
+	   .bboxfirst .boxfirst{
+	   	    width: 316px;
+		    height: 200px;
+		    margin:30px auto;
+		    border: 5px solid #fff;
+		    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+		    position: relative;   
+	   }
+	   .nextfirst{
+	   	    width: 300px;
+		    height: 200px;
+		    left:5px;
+		    margin:0 auto;
+		    position: absolute;
+		    overflow: hidden;
+		    transform-origin:center center;
+		}	
+	   .nextfirst:hover .bjfirst{
+           transform: scale(1);
+            opacity: 1;
+	   }
+	   .nextfirst:hover .imgfirst{
+            transform: scale(0.5); 
+	   }
+		.imgfirst{
+			width: 300px;
+			height: 200px;
+			position:absolute;
+			left:0px;
+			/*top:8px;*/
+			z-index:8;
+			transition:all 1s;
+			/*display:none ;*/
+		}	
+			
+		.bjfirst{
+			width: 300px;
+			height: 200px;
+			color: #FFF;
+			position: absolute;
+			left:0px;
+			top:0px;
+			background:#000;
+			transition-duration:1s; 
+			transform: scale(0);
+			/*transition-delay:2s ;*/
+			z-index: 7;
+		}
+		.bjfirst h3{
+			position: absolute;
+		    top: 12px;
+		    left: 12px;
+		    text-transform: uppercase;
+		    color: #fff;
+		    text-align: center;
+		    font-size: 17px;
+		    margin: 0;
+		}
+		.bjfirst p{
+			position: absolute;
+		    right: 12px;
+		    bottom: 12px;
+		    margin: 0;
+		    font-style: italic;
+		    font-size: 12px;
+		    color: #bbb;
+		}
